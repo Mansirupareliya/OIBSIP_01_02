@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("pic3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero{
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height:100%;
+
+}
+nav{
+    width: 84%;
+    height: 90px;
+    margin: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: aliceblue;
+    border: 4px solid black;
+  
+
+}
+.logo{
+    color: darkcyan;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    
+}
+span{
+    color:darkblue;
+    letter-spacing: 1px;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+   padding: 10px 25px;
+   font-weight: bold;
+   font-size: 15px;
+   margin-bottom: 3%;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color:blue;
+    transition: .2s;
+
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+   margin-bottom: 2%;
+    transition: transform .4s;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 400%;
+    left: 20%;
+    transform: translateY(-50%);
+    color: black;
+}
+h1{
+    color:darkcyan;
+    margin: 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h3{
+    color:darkblue;
+    font-size: 15px;
+    margin: 30px 0px 30px;
+    font-family:sans-serif ;
+    line-height: 1px;
+}
+h4{
+    color:darkblue;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+section {
+    padding: 20px;
+    margin-top: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.project {
+    background-color: white;
+    border: 5px solid black;
+    color:black;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    padding: 70px;
+}
+.heading h1{
+    
+    padding-left: 500px;
+    color: darkblue;
+    font-size: 30px;
+
+}
+.button{
+    background-color:darkblue;
+}
+
+.about{
+    padding-top: 50%;
+    padding-bottom: 10%;
+    width: 100%;
+    /* padding: 100px; */
+    background-color:white;
+
+}
+.title{
+    justify-content: center;
+    padding: 50px;
+    padding-left:700px;
+    color: darkblue;
+    font-size: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+
+}
+.card{
+    height: 395px;
+    width: 335px;
+    padding:20px 35px ;
+    background-color: white;
+    border: 5px solid black;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:darkblue;
+    background-color: white;
+
+}
+h5{
+    color:darkblue;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+
+
+}
+.pra p{
+    color: darkblue;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 25px;
+     background-color:white; 
+}
+
+.card .button{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+#contact{
+    width: 100%;
+    height: 290px;
+    color: white;
+    display: flex;
+    border: 4px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.contact h1{
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#contact p
+{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 4s;
+}
